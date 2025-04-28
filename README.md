@@ -43,5 +43,36 @@ Meditation Timer is a simple, user-friendly web application designed to help ind
 ```bash
 cd meditationtiming
 
+```
+3. Open index.html in your browser to view the app.
+
+### How It Works
+
+## Meditation Timer
+* The timer starts and stops with the "Start" and "Stop" buttons.
+
+* Users can set their preferred session time in minutes, and the timer will count down accordingly.
+
+* When the timer reaches zero, an alert will notify the user that their meditation session is complete.
+
+## Privacy Policy
+The app collects minimal data, only anonymous usage statistics to improve service and cookies to maintain the session.
+
+## Contact Form
+Users can reach out to the app’s team via the Contact page by submitting their name and email address.
+
+### Privacy & Data Collection
+#### We prioritize user privacy. The app only collects the following:
+
+* Usage Data: Anonymous statistics on session times and preferences.
+
+* Contact Information: Name and email for responding to inquiries.
+
+* Cookies: To maintain user preferences during sessions.
+
+
+
+  
+
 
    
