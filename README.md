@@ -1,5 +1,12 @@
 # Meditation Timer
 
+![image](https://github.com/user-attachments/assets/38121751-87bb-40b3-ac5d-896735c92fe5)
+
+
+![image](https://github.com/user-attachments/assets/c66c99fb-24c6-4373-8f6c-6aa5d1c2ab2e)
+
+
+
 Meditation Timer is a simple, user-friendly web application designed to help individuals practice meditation by providing a timer to manage their sessions. The application features easy-to-use controls, customizable session times, and a clean, minimalist design.
 
 ## Features
@@ -32,3 +39,9 @@ Meditation Timer is a simple, user-friendly web application designed to help ind
 1. Clone this repository:
    ```bash
    git clone https://github.com/123Wissen/meditationtiming.git
+2. Navigate to the project folder:
+```bash
+cd meditationtiming
+
+
+   
