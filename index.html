@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation Timer</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <i class="fas fa-om" style="color: white; font-size: 2rem;"></i>
+                <h1>Meditation Timer</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> About</a>
+                <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="privacy.html" class="nav-link"><i class="fas fa-shield-alt"></i> Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="row justify-content-center">
+            <!-- Count Down Timer Section -->
+            <div class="col-md-4">
+                <section id="countdown" class="timer-section">
+                    <div class="racing-trail"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <h2 class="text-center">Count Down</h2>
+                    <div class="timer-container">
+                        <div class="clock-face">
+                            <div class="clock-center"></div>
+                            <div class="clock-hand"></div>
+                            <div class="clock-marks"></div>
+                        </div>
+                        <div class="circular-progress">
+                            <div class="timer-display">00:00</div>
+                        </div>
+                        <div class="controls">
+                            <input type="number" class="timer-input" placeholder="Enter minutes" min="1">
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary flex-grow-1 start-btn">Start</button>
+                                <button class="btn btn-secondary flex-grow-1 reset-btn">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Duration Timer Section -->
+            <div class="col-md-4">
+                <section id="duration" class="timer-section">
+                    <div class="racing-trail"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <h2 class="text-center">Duration</h2>
+                    <div class="timer-container">
+                        <div class="clock-face">
+                            <div class="clock-center"></div>
+                            <div class="clock-hand"></div>
+                            <div class="clock-marks"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar"></div>
+                        </div>
+                        <div class="timer-display">00:00</div>
+                        <div class="controls">
+                            <input type="number" class="timer-input" placeholder="Enter minutes" min="1">
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary flex-grow-1 start-btn">Start</button>
+                                <button class="btn btn-secondary flex-grow-1 reset-btn">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Interval Timer Section -->
+            <div class="col-md-4">
+                <section id="interval" class="timer-section">
+                    <div class="racing-trail"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <div class="corner-light"></div>
+                    <h2 class="text-center">Interval</h2>
+                    <div class="timer-container">
+                        <div class="clock-face">
+                            <div class="clock-center"></div>
+                            <div class="clock-hand"></div>
+                            <div class="clock-marks"></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar"></div>
+                        </div>
+                        <div class="timer-display">00:00</div>
+                        <div class="controls">
+                            <div class="interval-inputs">
+                                <input type="number" class="timer-input" placeholder="Meditation minutes" min="1">
+                                <input type="number" class="timer-input" placeholder="Rest minutes" min="1">
+                                <input type="number" class="timer-input" placeholder="Number of cycles" min="1">
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary flex-grow-1 start-btn">Start</button>
+                                <button class="btn btn-secondary flex-grow-1 reset-btn">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- How to Use & Benefits Sections -->
+    <div class="container info-sections">
+        <div class="row justify-content-center">
+            <!-- How to Use Section 1 -->
+            <div class="col-md-6 col-lg-5">
+                <section class="info-section">
+                    <h2 class="text-center">Getting Started</h2>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Choose Your Timer</h3>
+                                <p>Select from three timer types: Count Down for a simple countdown, Duration to track elapsed time, or Interval for alternating meditation and rest periods.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-sliders-h"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Set Your Time</h3>
+                                <p>Enter your desired meditation time in minutes. For the Interval timer, also set your rest period and number of cycles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- How to Use Section 2 -->
+            <div class="col-md-6 col-lg-5">
+                <section class="info-section">
+                    <h2 class="text-center">Using the Timer</h2>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Start & Focus</h3>
+                                <p>Click the Start button and begin your meditation practice. The timer will display your progress and play gentle bell sounds at intervals.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-volume-up"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Customize Settings</h3>
+                                <p>Toggle sound on/off or use fullscreen mode for a distraction-free experience using the buttons at the bottom of the screen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Benefits Section 1 -->
+            <div class="col-md-6 col-lg-5">
+                <section class="info-section">
+                    <h2 class="text-center">Mental Benefits</h2>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Reduced Stress & Anxiety</h3>
+                                <p>Regular meditation practice has been shown to lower cortisol levels, reducing stress and anxiety while promoting a sense of calm.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Improved Focus</h3>
+                                <p>Meditation enhances concentration and attention span, helping you stay more present and focused throughout your day.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Benefits Section 2 -->
+            <div class="col-md-6 col-lg-5">
+                <section class="info-section">
+                    <h2 class="text-center">Physical Benefits</h2>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-bed"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Better Sleep</h3>
+                                <p>Regular meditation can help regulate sleep patterns, making it easier to fall asleep and improving overall sleep quality.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Enhanced Well-being</h3>
+                                <p>Meditation promotes emotional health, increases self-awareness, and can generate kindness through loving-kindness meditation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link"><i class="fas fa-home"></i> Home</a>
+                    <a href="about.html" class="footer-link"><i class="fas fa-info-circle"></i> About Us</a>
+                    <a href="contact.html" class="footer-link"><i class="fas fa-envelope"></i> Contact</a>
+                    <a href="privacy.html" class="footer-link"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Meditation Timer. All rights reserved. <a href="https://wissentechs.com" target="_blank">Wissen Techs</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
